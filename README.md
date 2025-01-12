@@ -1,38 +1,31 @@
-# sv
+# Tidy SvelteKit Starter
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A clean a minimal template for starting your next Sveltekit project.
 
-## Creating a project
+## Preinstalled
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+- MDsevX (markdown formatting)
+- Tailwind CSS (CSS framework), including plugins:
+    - @tailwindcss/container-queries
+    - @tailwindcss/forms
+    - @tailwindcss/typography
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+You can choose to run using a Node.js or Bun runtime.
+
+> [!NOTE]
+> Running with Bun leverages all the advatages of Bun, however many production environments use a Node.js runtime, therefore using Node.js may ensure your app remains Node friendly even when developed using Bun.
+
+To use Bun:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+bun --bun dev
 ```
 
-## Building
-
-To create a production version of your app:
+Or to use Node.js:
 
 ```bash
-npm run build
+bun dev
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
