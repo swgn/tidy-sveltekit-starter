@@ -2,4 +2,12 @@
 
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/container-queries';
+
+@theme {
+	--font-mono: 'Monaspace Neon', monospace;
+
+	--color-milk: oklch(0.9934 0.0107 95.16);
+	--color-ink: oklch(0.1776 0 0);
+
+	--color-background: var(--color-milk);
+}
