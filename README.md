@@ -1,6 +1,6 @@
 # Tidy SvelteKit Starter
 
-A clean a minimal template for starting your next Sveltekit project.
+A clean and minimal template for starting your next Sveltekit project.
 
 ## Preinstalled
 
@@ -15,7 +15,7 @@ A clean a minimal template for starting your next Sveltekit project.
 You can choose to run using a Node.js or Bun runtime.
 
 > [!NOTE]
-> Running with Bun leverages all the advatages of Bun, however many production environments use a Node.js runtime, therefore using Node.js may ensure your app remains Node friendly even when developed using Bun.
+> Running with Bun leverages all the advantages of Bun, however many production environments use a Node.js runtime. Therefore using Node.js may ensure your app remains Node friendly even when developed using Bun.
 
 To use Bun:
 
